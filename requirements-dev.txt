@@ -1,0 +1,8 @@
+-r requirements.txt
+pytest>=8.0
+reportlab>=4.0
+
+# Day 2 (evaluation) will add: rouge-score, bert-score
+# Optional OCR for scanned PDFs (also needs the Poppler and Tesseract programs):
+#   pdf2image
+#   pytesseract
